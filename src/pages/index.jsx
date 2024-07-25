@@ -229,7 +229,7 @@ function Photos() {
           <div
             key={image.src}
             className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl border-red-100 bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+              'border-1 relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length]
             )}
           >
@@ -262,11 +262,11 @@ export default function Home({ articles }) {
             次元万事屋
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            二次元本地创作服务平台
+            网站正在建设中,过阵子就能上线啦~
           </p>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          {/* <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             专注于摄影、妆造、谷子、漫展
-          </p>
+          </p> */}
         </div>
       </Container>
       <Photos />
