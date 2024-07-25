@@ -34,8 +34,8 @@ export function Footer() {
                 {/* 摄影、妆造、谷子、漫展    */}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Spencer Sharp. All rights
-                reserved.
+                &copy; {new Date().getFullYear()} - {new Date().getFullYear()}
+                &nbsp; 上海寻常信息技术有限公司 版权所有
               </p>
             </div>
           </Container.Inner>
