@@ -262,7 +262,7 @@ export default function Home({ articles }) {
             次元万事屋
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            网站正在建设中,过阵子就能上线啦~
+           一站式二次元创作服务平台
           </p>
           {/* <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             专注于摄影、妆造、谷子、漫展
